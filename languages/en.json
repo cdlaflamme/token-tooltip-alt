@@ -6,6 +6,7 @@
 
   "token-tooltip-alt.settings.TOOLTIP_POSITION.name": "Tooltip placement",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.hint": "Determine the tooltip's position.",
+  "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.topRight": "Top right",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.top": "Top",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.right": "Right",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.bottom": "Bottom",

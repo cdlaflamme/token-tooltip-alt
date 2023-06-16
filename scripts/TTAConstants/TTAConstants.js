@@ -49,7 +49,7 @@ const TTAConstants = {
   SYSTEM_DEFAULT_THEMES: {
     default: 'default',
   },
-  TOOLTIP_POSITIONS: ['top', 'right', 'bottom', 'left', 'overlay'],
+  TOOLTIP_POSITIONS: ['topRight', 'top', 'right', 'bottom', 'left', 'overlay'],
 };
 
 function getSystemTheme() {

@@ -228,7 +228,7 @@ class Tooltip {
   // for players this gets a little complicated
   _getActorDisplayName(staticData) {
     if (!staticData) return null;
-    const tokenDataSource = versionAfter10() ? this._token : this._token?.data;
+    const tokenDataSource = versionAfter10() ? this._token.document : this._token?.data;
     const tokenName = tokenDataSource?.name;
     if (this._tooltipInfo.isGM && staticData.displayNameInTooltip) return tokenName;
     if (!this._tooltipInfo.isGM) {
@@ -339,8 +339,17 @@ class Tooltip {
       color: this._accentColor,
     };
     switch (this._where) {
-      case 'right':
-      default: {
+      case 'topRight':
+	  default: {
+		const cW = this._tooltip.width();
+		const chatWidth = 325;
+		const statusWidth = 50;
+		const canvas = $('#board');
+		position.top = 0 + ltPadding;
+		position.left = canvas.width() - cW - ltPadding - chatWidth - statusWidth;
+        break;
+	  }
+	  case 'right': {
         position.top = tokenWT.ty - padding;
         position.left = tokenWT.tx + (this._token.w * tokenWT.a) + padding;
         break;

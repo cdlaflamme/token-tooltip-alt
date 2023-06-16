@@ -21,7 +21,7 @@ class TooltipFactory {
 
   // get the positioning from settings, and if surprise pick a random possible position
   _getWhere() {
-    const where = this._getSetting(this._settingKeys.TOOLTIP_POSITION) || 'right';
+    const where = this._getSetting(this._settingKeys.TOOLTIP_POSITION) || 'topRight';
     const positions = TTAConstants.TOOLTIP_POSITIONS;
     return where !== 'surprise' ? where : positions[Math.floor(Math.random() * positions.length)];
   }

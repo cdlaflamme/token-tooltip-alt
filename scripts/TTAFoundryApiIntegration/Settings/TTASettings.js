@@ -30,8 +30,9 @@ function initSettings() {
         hint: i18n('settings.TOOLTIP_POSITION.hint'),
         type: String,
         config: true,
-        default: 'right',
+        default: 'topRight',
         choices: {
+          topRight: i18n('settings.TOOLTIP_POSITION.choices.topRight'),
           top: i18n('settings.TOOLTIP_POSITION.choices.top'),
           right: i18n('settings.TOOLTIP_POSITION.choices.right'),
           bottom: i18n('settings.TOOLTIP_POSITION.choices.bottom'),
