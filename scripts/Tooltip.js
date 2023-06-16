@@ -339,8 +339,17 @@ class Tooltip {
       color: this._accentColor,
     };
     switch (this._where) {
-      case 'right':
-      default: {
+      case 'topRight':
+	  default: {
+		const cW = this._tooltip.width();
+		const chatWidth = 325;
+		const statusWidth = 50;
+		const canvas = $('#board');
+		position.top = 0 + ltPadding;
+		position.left = canvas.width() - cW - ltPadding - chatWidth - statusWidth;
+        break;
+	  }
+	  case 'right': {
         position.top = tokenWT.ty - padding;
         position.left = tokenWT.tx + (this._token.w * tokenWT.a) + padding;
         break;

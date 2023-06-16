@@ -6,6 +6,7 @@
 
   "token-tooltip-alt.settings.TOOLTIP_POSITION.name": "Localización del Globo",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.hint": "Determina la posición de los globos de información.",
+  "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.topRight": "Arriba Derecha",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.top": "Arriba",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.right": "Derecha",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.bottom": "Abajo",

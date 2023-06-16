@@ -6,6 +6,7 @@
 
   "token-tooltip-alt.settings.TOOLTIP_POSITION.name": "ツールチップの位置",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.hint": "ツールチップの表示位置を指定します。",
+  "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.topRight": "上右",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.top": "上",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.right": "右",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.bottom": "下",

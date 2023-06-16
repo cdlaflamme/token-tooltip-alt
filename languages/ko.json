@@ -6,6 +6,7 @@
 
   "token-tooltip-alt.settings.TOOLTIP_POSITION.name": "툴팁 배치",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.hint": "툴팁의 위치를 지정한다.",
+  "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.topRight": "위 오른쪽",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.top": "위",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.right": "오른쪽",
   "token-tooltip-alt.settings.TOOLTIP_POSITION.choices.bottom": "아래",
